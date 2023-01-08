@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  // let number;
+  // number = "<table table border='1' width='300' cellspacing='0' cellpadding='15'>";
+  // for(let i =1; i <= 10 ; i++) {
+  //   number = number + "<tr>";
+  //   for(let j = 2 ; j <= 10; j++) {
+  //     number = number + "<td>" + ( j + " x " + i + " = " + (i * j) ) + "</td>";
+  //   }
+  //   number = number + "</tr>";
+  // }
+  // number = number + "</table>";
+  //
+  // document.write(number);
+  let sout, i, j;
+  sout = "<table border='1' width='300' cellspacing='0' cellpadding='15'>";
+  debugger;
+  for (i = 1; i <= 10; i++) {
+    sout = sout + "<tr>";
+    for (j = 1; j <= 10; j++) {
+      sout = sout + "<td>" + j + "*" + i + "=" + i * j + "</td>";
+    }
+    sout = sout + "</tr>";
+    // j = 1;
+  }
+  sout = sout + "</table>";
+  document.write(sout);
+</script>
+</html>

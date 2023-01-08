@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+<script>
+  // chuỗi Fibonacci tối đa n điều khoản in ra số lượng người dùng mong muốn
+  // program to generate fibonacci series up to n terms
+  // take input from the user
+  const number = parseInt(prompt('Enter the number of terms: '));
+  let n1 = 0, n2 = 1, nextTerm;
+
+  console.log('Fibonacci Series:');
+
+  for (let i = 1; i <= number; i++) {
+    console.log(n1);
+    nextTerm = n1 + n2;
+    n1 = n2;
+    n2 = nextTerm;
+  }
+</script>
+</html>
